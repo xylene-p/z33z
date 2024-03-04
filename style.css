@@ -1,0 +1,25 @@
+body {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 1.5em;
+}
+
+.post {
+  border: 2px solid black;
+  padding: 3em;
+  margin: 1em;
+}
+
+.post-title {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+img {
+  max-width: 25%;
+}
