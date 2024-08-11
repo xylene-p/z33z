@@ -5,7 +5,8 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-  font-size: 2.5em;
+  font-size: 1em;
+  width: 100vw;
 }
 
 .post {
@@ -25,7 +26,20 @@ img {
 }
 
 h1 {
+  font-family: 'PicNic';
   font-size: 1.2em;
   font-weight: bold;
   padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@font-face { 
+	font-family: 'PicNic';
+	src: url('fonts/PicNic-Regular.woff') format('woff'),
+		url('fonts/PicNic-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
