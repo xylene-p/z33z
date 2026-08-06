@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
@@ -33,11 +37,18 @@ h1 {
   border: 2px solid black;
   padding: 1em;
   margin: 1em 0;
+  scroll-margin-top: 1em;
+}
+
+.post-meta {
+  font-size: 0.8em;
+  color: #555;
 }
 
 .post-title {
   font-size: clamp(1.5em, 5.5vw, 2.2em);
   font-weight: bold;
+  margin: 0;
   padding: 0.75em 0;
   line-height: 1.2;
 }
@@ -45,6 +56,20 @@ h1 {
 img {
   max-width: 25%;
   height: auto;
+  margin: 0.35em 0;
+}
+
+.sc-credit {
+  font-size: 0.75em;
+  color: #888;
+  margin-top: 0.35em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sc-credit a {
+  color: #888;
 }
 
 iframe {
