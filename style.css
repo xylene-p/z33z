@@ -1,47 +1,78 @@
+@font-face {
+  font-family: 'PicNic';
+  src: url('fonts/PicNic-Regular.woff2') format('woff2'),
+    url('fonts/PicNic-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  width: 100vw;
+  font-variation-settings: "wdth" 100;
+  margin: 0 auto;
+  padding: 0 0.5em;
+  max-width: 52em;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-family: 'PicNic';
+  font-size: clamp(2.4em, 9vw, 5em);
+  line-height: 1.1;
 }
 
 .post {
   border: 2px solid black;
   padding: 1em;
-  margin: 1em;
+  margin: 1em 0;
 }
 
 .post-title {
-  font-size: 2.2em;
+  font-size: clamp(1.5em, 5.5vw, 2.2em);
   font-weight: bold;
-  padding: 1em;
+  padding: 0.75em 0;
+  line-height: 1.2;
 }
 
 img {
   max-width: 25%;
+  height: auto;
 }
 
-h1 {
-  font-family: 'PicNic';
-  font-size: 5em;
+iframe {
+  max-width: 100%;
 }
 
 ul {
   list-style-type: none;
 }
 
-.link-bar {
-  float: inline-start;
-  width: 200;
+#link-bar {
+  margin-bottom: 1.5em;
 }
 
-@font-face { 
-	font-family: 'PicNic';
-	src: url('fonts/PicNic-Regular.woff') format('woff'),
-		url('fonts/PicNic-Regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+#link-bar a {
+  display: inline-block;
+  padding: 0.15em 0;
+}
+
+.yt-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 100%;
+  }
 }

@@ -1,0 +1,17 @@
+# GitHub Pages config (not needed on Vercel)
+CNAME
+
+# Editor/IDE files
+*.code-workspace
+.vscode/
+
+# Prettier config (not needed in production)
+.prettierrc
+
+# Git
+.git/
+.gitignore
+
+# Original full-size images (site uses compressed copies in img/)
+*.png
+umami-sf.jpeg
