@@ -118,6 +118,16 @@ ul {
   height: auto;
 }
 
+/* lavacore matches Kat's doc: Nunito body, Righteous track names */
+#lavacore {
+  font-family: "Nunito", sans-serif;
+}
+
+#lavacore .track {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+}
+
 @media (max-width: 600px) {
   .media-frame {
     border-radius: 12px;
