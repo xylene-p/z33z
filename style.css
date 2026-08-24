@@ -99,7 +99,7 @@ ul {
 /* soft rounded media frame — that floating macOS-app look */
 .media-frame {
   max-width: 560px;
-  margin: 0.75em 0;
+  margin: 0.75em auto;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24), 0 3px 10px rgba(0, 0, 0, 0.12);
