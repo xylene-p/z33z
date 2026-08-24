@@ -118,6 +118,11 @@ ul {
   height: auto;
 }
 
+/* vertical phone-shot clips sit narrower, like a clip from the night */
+.media-frame.portrait {
+  max-width: 320px;
+}
+
 /* lavacore matches Kat's doc: Nunito body, Righteous track names */
 #lavacore {
   font-family: "Nunito", sans-serif;
