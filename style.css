@@ -159,6 +159,12 @@ ul {
   max-width: 320px;
 }
 
+/* poster: keep the corner rounding off the lineup names at the bottom edge */
+.media-frame.poster {
+  background: #000;
+  padding-bottom: 16px;
+}
+
 /* crowd photo grid */
 .photo-grid {
   display: grid;
