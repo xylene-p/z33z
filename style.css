@@ -118,6 +118,13 @@ ul {
   height: auto;
 }
 
+.media-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
 /* vertical phone-shot clips sit narrower, like a clip from the night */
 .media-frame.portrait {
   max-width: 320px;
