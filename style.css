@@ -130,13 +130,10 @@ ul {
   max-width: 320px;
 }
 
-/* poster: square the bottom so the rounding doesn't clip the lineup names;
-   black background covers any sub-pixel edge gaps (no white bars) */
+/* poster: square corners (no rounding), black bg covers sub-pixel edge gaps */
 .media-frame.poster {
   background: #000;
-  padding-bottom: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 0;
 }
 
 /* crowd photo grid */
